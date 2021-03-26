@@ -15,7 +15,7 @@ func TestJsonMarshals(t *testing.T) {
 	_, err := json.Marshal(developer)
 
 	if err != nil {
-		t.Error("JSON marchaling through an error", err)
+		t.Error("JSON marshalling caused an error", err)
 	}
 }
 
@@ -27,7 +27,7 @@ func TestJsonUnmarshals(t *testing.T) {
 	err := json.Unmarshal([]byte(someJson), &developer)
 
 	if err != nil {
-		t.Error("JSON marchaling through an error", err)
+		t.Error("JSON unmarshalling caused an error", err)
 	}
 
 	assert.Equal(t, "Dev Dangerfield", developer.Name)
