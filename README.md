@@ -6,6 +6,6 @@ A simple REST API to manage Developers. Created for Developer Forum 2021.
 This API demonstrates:
 
 * Golang microservice
-* Fibre API stack
-* Production-grade logging/monitoring/tracing/healthchecks
-* Devcontainers + compatible with 3 Musketeers portable toolchain.
+* Fibre API stack https://gofiber.io/
+* Production-grade logging/monitoring/tracing/healthchecks (eventually)
+* Devcontainers (VS Code, Github Workspaces) + compatible with 3 Musketeers portable toolchain. https://code.visualstudio.com/docs/remote/create-dev-container
